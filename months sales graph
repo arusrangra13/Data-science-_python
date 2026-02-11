@@ -1,0 +1,15 @@
+#Plotting with layer 
+import matplotlib.pyplot as plt
+
+months = [1,2,3,4,5] 
+product_A = [20,35,30,35,40]
+product_B = [25,30,35,30,45]
+#layer 1
+plt.plot(months,product_A, label="product A")
+#layer2
+plt.plot(months,product_B,label="product_b")
+
+plt.xlabel("months")
+plt.ylabel("sales")
+plt.title("months sales comparision")
+plt.legend()
