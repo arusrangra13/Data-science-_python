@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+students = ['A','B','C','D']
+attendence=[75,85,65,98]
+average=[80,80,80,80]
+#layer 1 : Bar chart
+plt.bar(students,attendence)
+
+#layer2 : line chrt
+plt.plot(students,average)
+
+plt.xlabel("students")
+plt.ylabel("Attendence(%)")
+plt.title("Attendence with Average")
+
+plt.show()
